@@ -33,7 +33,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         }
     };*/
 
-
+    KitchenFragment kitchenFragment = new KitchenFragment();
+    RecipesFragment recipesFragment = new RecipesFragment();
+    ShoppingListFragment shoppingListFragment = new ShoppingListFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(this);
 
-        loadFragment(new KitchenFragment());
+        loadFragment(kitchenFragment);
     }
 
     private boolean loadFragment(Fragment fragment){
@@ -64,15 +66,15 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
         switch(menuItem.getItemId()){
             case R.id.navigation_kitchen:
-                fragment = new KitchenFragment();
+                fragment = kitchenFragment;
                 break;
 
             case R.id.navigation_recipes:
-                fragment = new RecipesFragment();
+                fragment = recipesFragment;
                 break;
 
             case R.id.navigation_shoppinglist:
-                fragment = new ShoppingListFragment();
+                fragment = shoppingListFragment;
                 break;
         }
         return loadFragment(fragment);
