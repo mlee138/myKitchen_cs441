@@ -12,12 +12,68 @@
         android:textSize="10dp"/>
     
     <EditText
-        android:id="@+id/txtinput"
+        android:id="@+id/txtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="new item"
-        android:autofillHints="new item"
+        android:hint="enter name"
+        android:autofillHints="enter name"
         android:inputType="text"/>
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtQuantity"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="enter quantity"-->
+        <!--android:autofillHints="enter quantity"-->
+        <!--android:inputType="text"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtCalories"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="new item"-->
+        <!--android:autofillHints="new item"-->
+        <!--android:inputType="text"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtCarbs"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="new item"-->
+        <!--android:autofillHints="new item"-->
+        <!--android:inputType="text"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtFat"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="new item"-->
+        <!--android:autofillHints="new item"-->
+        <!--android:inputType="text"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtProtein"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="new item"-->
+        <!--android:autofillHints="new item"-->
+        <!--android:inputType="text"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtSodium"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="new item"-->
+        <!--android:autofillHints="new item"-->
+        <!--android:inputType="text"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtSugar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="new item"-->
+        <!--android:autofillHints="new item"-->
+        <!--android:inputType="text"/>-->
 
     <Button
         android:id="@+id/btdone"

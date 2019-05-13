@@ -13,6 +13,24 @@
         android:layout_height="match_parent">
         </FrameLayout>
 
+    <!--<Button-->
+        <!--android:id="@+id/add_item"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:background="@android:color/holo_blue_dark"-->
+        <!--android:text="Add +"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/fragment_container"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.39" />-->
+
+
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="0dp"
@@ -24,5 +42,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
+
+
 
 </android.support.constraint.ConstraintLayout>
