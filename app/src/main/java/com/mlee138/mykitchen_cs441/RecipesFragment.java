@@ -31,7 +31,7 @@ public class RecipesFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.recipes_content, container,false);
         //recipe items to display
-        String[] recipeItems = {"A","B","C"};
+        String[] recipeItems = {"Chicken Parmigiania","Burger","Stuffed Mushrooms"};
         listView = (ListView) view.findViewById(R.id.recipes_list);
         itemNames = new ArrayList<>(Arrays.asList(recipeItems));
         //turns recipe items to displayable items
@@ -89,7 +89,7 @@ public class RecipesFragment extends Fragment {
         dialog.setTitle("Input Box");
         dialog.setContentView(R.layout.input_box);
         TextView txtMessage = (TextView) dialog.findViewById(R.id.txtmessage);
-        txtMessage.setText("Add Item");
+        txtMessage.setText("Add Recipe");
         txtMessage.setTextSize(20);
         txtMessage.setTextColor(Color.parseColor("#000000"));
         editText=(EditText)dialog.findViewById(R.id.txtName);

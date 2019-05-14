@@ -31,7 +31,7 @@ public class ShoppingListFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.shoppinglist_content, container,false);
         //shopping list items to display
-        String[] shoppingListItems = {"A","B","C"};
+        String[] shoppingListItems = {"Paper Towels","Mushrooms","Rice", "Ground Beef"};
         listView = (ListView) view.findViewById(R.id.shoppinglist_list);
         itemNames = new ArrayList<>(Arrays.asList(shoppingListItems));
         //turns shopping list items to displayable items

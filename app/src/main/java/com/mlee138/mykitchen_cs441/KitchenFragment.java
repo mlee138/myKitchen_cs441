@@ -37,9 +37,7 @@ public class KitchenFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.kitchen_content, container,false);
         //kitchen items to display
-        FoodItem test1 = new FoodItem("Chicken","2",nfTest);
-        FoodItem test2 = new FoodItem("String Beans","10",nfTest);
-        String[] kitchenItems = {"A","B"};
+        String[] kitchenItems = {"Chicken","String Beans", "Spaghetti"};
         itemNames = new ArrayList<>(Arrays.asList(kitchenItems));
         listView = (ListView) view.findViewById(R.id.kitchen_list);
 
